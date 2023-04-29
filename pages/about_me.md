@@ -1,7 +1,7 @@
 ---
 title: About Me
 nav: About Me
-nav_order: 1
+nav_order: 2
 ---
 
 ## ***What does being a Cornellian mean to you?***

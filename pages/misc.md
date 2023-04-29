@@ -1,7 +1,7 @@
 ---
-title: About This Personal Webpage
-nav: About
-nav_order: 2
+title: Misc
+nav: Misc
+nav_order: 4
 ---
 
 This is the personal website of Xiaochang Liu, containing short bio (experience overview), academic interest and a showcase of projects in the past or currently undertaking.
