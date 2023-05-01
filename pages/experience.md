@@ -1,6 +1,6 @@
 ---
-title: Projects
-nav: Projects
+title: Experience
+nav: Experience
 nav_order: 3
 ---
 

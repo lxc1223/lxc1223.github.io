@@ -1,0 +1,36 @@
+{% comment %}
+
+    Bootstrap Card, https://getbootstrap.com/docs/4.5/components/card/
+    
+    e.g. --> {% include card_new.html title="" text="" header="" img="" alt="" btn-link="" btn-text=""%}
+
+    Options:
+    - "text" = main card text, can use markdown formatting. Use a Liquid capture to add more complex content.
+    - "header" = card header text (in bar above card content)
+    - "title" = card title text inside card content area
+    - "img" = give filename of image in your "images" folder, will create a card cap image
+    - "alt" = alt text for image
+    - "btn-link" = href for button, be sure to include btn-text 
+    - "btn-text" = text for button link, be sure to include btn-link
+
+{%- endcomment -%}
+
+<style>
+  .card-new-img-top {
+    object-fit: cover;
+    height: 350px;
+    width: 350px;
+  }
+</style>
+
+<div class="card" style="width: 22rem;">
+    {% if include.img %}<img src="{{ include.img }}" class="card-new-img-top" alt="{{ include.alt }}">{% endif %}
+    {% if include.header %}<h5 class="card-header">{{ include.header }}</h5>{% endif %}
+    <div class="card-body">
+      {% if include.title %}<h5 class="card-title">{{ include.title }}</h5>{% endif %}
+      <div class="card-text">
+        {{ include.text | markdownify }}
+      </div>
+      {% if include.btn-link %}<a href="{{ include.btn-link }}" class="btn btn-primary">{{ include.btn-text }}</a>{% endif %}
+    </div>
+  </div>
