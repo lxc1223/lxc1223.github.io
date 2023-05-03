@@ -17,3 +17,15 @@
   padding-left: 6px; /* adjust as needed */
 }
 
+th[rowspan="2"] {
+  vertical-align: middle;
+  text-align: center;
+}
+th[colspan="3"] {
+  vertical-align: middle;
+  text-align: center;
+}
+th[colspan="2"] {
+  vertical-align: middle;
+  text-align: center;
+}

@@ -1,8 +1,11 @@
 ---
 title: Misc
 nav: Misc
+layout: default
 nav_order: 4
 ---
+
+{% include jumbotron.html title="Interests & Hobbies" lead="<i>Explore Funny Facts: Study Hard, Play Hard!</i>" btn-text="Nothing Here" btn-link="#" %}
 
 This is the personal website of Xiaochang Liu, containing short bio (experience overview), academic interest and a showcase of projects in the past or currently undertaking.
 
@@ -44,12 +47,3 @@ A numbered list is created using a number + `.`, like:
 2. two
 6. three
 2. four
-
-### A Table
-
-| header | column a | column b |
-| --- | --- | --- |
-| dogs | 3 | 6 |
-| cats | 3 | 6 |
-| muffins | 15 | 30 |
-{:.table .table-striped}
