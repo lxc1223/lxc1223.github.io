@@ -118,8 +118,9 @@ header="<b>WORK EXPERIENCE: HUAWEI</b>" title="<i>Chip & Device Engineer - Kirin
 
 {% include card.html 
 text="
-- Built a 2m x 0.5m maglev vehicle prototype with 150m/s speed in vacuum; cooperated with CE team in featuring vehicle’s 
-status in a real-time monitor; measured actuators’ forces on “I-beam” track with ME team for braking estimation; 
+- Built a 2m x 0.5m maglev vehicle prototype with 150m/s speed in vacuum
+- Cooperated with CE team in featuring vehicle’s status in a real-time monitor
+- Measured actuators’ forces on “I-beam” track with ME team for braking estimation
 - Nominated as winner team of EDx 2018 (UCSB ENGR Design Expo)
 " 
 header="<b>PROJECT EXPERIENCE: SPACEX HYPERLOOP POD COMPETITION</b>" title="<i>Electronic Board Designer - Electrical Engineering Group, UCSB Hyperloop Team</i>" centered="true" img="https://pbs.twimg.com/media/CZk6YcJUsAEmmo_.png" %}
@@ -133,11 +134,11 @@ Cornell University:
 - Researched on backend design flow with ECE5745 'Complex Digital ASIC Design' in Cornell
 
 University of California, Santa Barbara:
-- Designed a 1.5 x 1.5 mm2 magnetic-field sensor chip consisting of custom MAGFETs, DC bias, VCO, and differential 
-amplifier by MOSIS C5. The chip can detect mag-field in -150~150mT range
-- Drew and verified the circuits layout in Virtuoso passing DRC/LVS; extracted parasitic and simulate noise independency 
-(SNR), N/P MAGFET matching, amplifier’s gain, and VCO linearity using HSPICE; wrote LEF and netlist; organized power 
-grid and I/O pins in INNOVUS
+- Designed a 1.5 x 1.5 mm2 magnetic-field sensor chip consisting of custom MAGFETs, DC bias, VCO, and differential amplifier by MOSIS C5. The chip can detect mag-field in -150~150mT range
+- Drew and verified the circuits layout in Virtuoso passing DRC/LVS
+- Extracted parasitic and simulate noise independency (SNR), N/P MAGFET matching, amplifier’s gain, and VCO linearity using HSPICE
+- Wrote LEF and netlist
+- Organized power grid and I/O pins in INNOVUS
 " 
 header="<b>RESEARCH EXPERIENCE: VLSI MIXED-SIGNAL DESIGN & BACKEND FLOW RESEARCH</b>" title="<i>Circuitry Designer and Backend Flow Researcher - UCSB ECI Lab and Cornell Upson Hall</i>" centered="true" img="https://cornell-ece5745.github.io/ece5745-tut5-asic-tools/assets/fig/cadence-innovus-3.png" %}
 
@@ -151,6 +152,82 @@ text="
 - Analyzed device performance on leakage, sub-threshold swing, etc.
 " 
 header="<b>RESEARCH EXPERIENCE: VLSI CHIP FABRICATION & SEMICONDUCTOR PROCESSES</b>" title="<i>Chip Processing Researcher and Devices Tester - UCSB Nano-Fab Cleanroom</i>" centered="true" img="https://www.novami.com/wp-content/uploads/2022/08/How-a-chip-is-born.nova-blog-banner.jpg" %}
+
+------
+
+{% include card.html 
+text="
+
+Computational Optimization: Algorithm Implementations (Python & Pyomo)
+
+1. Linear Programming
+2. Mixed Integer Linear Programming
+3. Non-Linear Programming
+4. Mixed Integer Non-Linear Programming
+5. Dynamic Programming
+6. Gradient Descent (i.e. SGD)
+7. Newton's Methods
+8. Robust Optimization
+9. Stochastic Programming
+10. Bus Charging Operational Strategy Optimization (Project)
+11. Bank Transaction Fraud Detection - Hybrid ML (Project)
+
+Machine Learning: Algorithm Implementations (Python & Pytorch)
+
+1. K-nearest neighbors
+2. Perceptron
+3. MLE/MAP
+4. Naive Bayes
+5. Linear/Logistic Regression
+6. PCA
+6. Clustering
+7. Support Vector Machines
+8. Empirical Risk Minimization
+9. Generalization: Bias/Variance Tradeoff
+10. Kernels
+11. Gaussian Processes/Bayesian Global Optimization
+12. Decision Trees with Bagging and Boosting
+13. Artifical Neural Networks/Deep Learning
+" 
+header="<b>PROJECT EXPERIENCE: COMPUTATIONAL OPTIMIZATION & MACHINE LEARNING</b>" title="<i>Researcher in Optimization and ML Projects at Cornell </i>" centered="true" img="https://assets.website-files.com/63e3d6905bacd6855fa38c1c/63e3d6905bacd6648ea390c6_Machine%20Learning-min%20(1).jpg" %}
+
+------
+
+### <i>More Experiences & Projects Ongoing......</i>
+<div class="container">
+  <div class="row">
+    <div class="col-md-2">
+      <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+  </div>
+</div>
 
 ------
 

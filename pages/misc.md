@@ -5,45 +5,80 @@ layout: default
 nav_order: 4
 ---
 
-{% include jumbotron.html title="Interests & Hobbies" lead="<i>Explore Funny Facts: Study Hard, Play Hard!</i>" btn-text="Nothing Here" btn-link="#" %}
+{% include j_new.html title="Interests & Hobbies" lead="<i>Explore Funny Facts: Study Hard, Play Hard!</i><br>Feel Free to Follow My Social Media!" %}
 
-This is the personal website of Xiaochang Liu, containing short bio (experience overview), academic interest and a showcase of projects in the past or currently undertaking.
+------
 
-## More Info. about Webpage Template
+## Have Fun!!!
 
-[bootstrap-template](https://github.com/thecdil/bootstrap-template) is a basic template repository to create a [Bootstrap](https://getbootstrap.com/) site using Jekyll on GitHub Pages (or where every you want to host it). 
-The layout is based on the [Bootstrap starter template example](https://getbootstrap.com/docs/4.5/examples/) with a navbar, search box (using lunr.js), and sticky footer.
-It is intended as a quick starting point for creating new web projects.
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 mx-auto">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3CClOsC26Lw" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col-sm-4 mx-auto">
+      <br><br>
+      {% include figure.html img="./images/level.jpg" caption="Irrelevant to any contents. Just for fun!" width="80%" %}
+    </div>
+  </div>
+</div>
 
-The basic steps for using bootstrap-template are: 
+------
 
-1. create repository from the template
-2. edit _config.yml
-3. edit content pages
-4. use customization options
+## Honor of Kings: Highlights
 
-See [docs/create-website.md](https://github.com/thecdil/bootstrap-template/blob/main/docs/create-website.md) for details!
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xiaochangliu8/video/7229110850500627758" data-video-id="7229110850500627758" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@xiaochangliu8" href="https://www.tiktok.com/@xiaochangliu8?refer=embed">@xiaochangliu8</a> <p></p> <a target="_blank" title="♬ original sound - ChrisAtCornell" href="https://www.tiktok.com/music/original-sound-7229110859401497386?refer=embed">♬ original sound - ChrisAtCornell</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    </div>
+    <div class="col-md-4">
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xiaochangliu8/video/7229130312721173802" data-video-id="7229130312721173802" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@xiaochangliu8" href="https://www.tiktok.com/@xiaochangliu8?refer=embed">@xiaochangliu8</a> <p></p> <a target="_blank" title="♬ Hawk Nelson - Sold Out - 女王Music" href="https://www.tiktok.com/music/Hawk-Nelson-Sold-Out-6870914108288403469?refer=embed">♬ Hawk Nelson - Sold Out - 女王Music</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    </div>
+    <div class="col-md-4">
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@xiaochangliu8/video/7229127398468357419" data-video-id="7229127398468357419" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@xiaochangliu8" href="https://www.tiktok.com/@xiaochangliu8?refer=embed">@xiaochangliu8</a> <p></p> <a target="_blank" title="♬ Angetenar(OriginalMix) - 黄南DJ阿才" href="https://www.tiktok.com/music/Angetenar-OriginalMix-6967414638472333342?refer=embed">♬ Angetenar(OriginalMix) - 黄南DJ阿才</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+    </div>
+  </div>
+</div>
 
-## Heading Two 
+------
 
-Any text with no empty lines between will become a paragraph.
-Leave an blank line between headings and paragraphs.
-Font can be *Italic* or **Bold**.
-Code can be highlighted with `backticks`.
+### <i>More Interesting Happening......</i>
 
-Hyperlinks look like this [GitHub Help](https://help.github.com/).
+<div class="container">
+  <div class="row">
+    <div class="col-md-2">
+      <div class="spinner-grow text-danger" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="spinner-grow text-warning" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="spinner-grow text-success" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="spinner-grow text-info" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="spinner-grow text-dark" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+  </div>
+</div>
 
-### Lists 
-
-A bullet list is created using `*`, `+`, or `-`, like:
-
-- dog
-- cat
-- muffin
-
-A numbered list is created using a number + `.`, like:
-
-1. one
-2. two
-6. three
-2. four

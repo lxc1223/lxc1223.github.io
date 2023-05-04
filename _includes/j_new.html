@@ -1,0 +1,26 @@
+{% comment %}
+
+    Options:
+    - "title" = large text with display font
+    - "lead" = paragraph with larger text
+    - "text" = paragraph
+    - "btn-text" = text for button link, be sure to include btn-link
+    - "btn-link" = href for button, be sure to include btn-text 
+
+{%- endcomment -%}
+
+<div class="jumbotron">
+    <div class="container">
+        {% if include.title %}<h1 class="display-3">{{ include.title | markdownify }}</h1>{% endif %}
+        {% if include.lead %}<p class="lead">{{ include.lead | markdownify }}</p>{% endif %}
+        {% if include.text %}<p>{{ include.text | markdownify }}</p>{% endif %}
+        {% if include.btn-link %}<a class="btn btn-primary btn-lg" href="{{ include.btn-link }}">{{ include.btn-text }}</a>{% endif %}
+        <a class="btn btn-primary" href="https://www.linkedin.com/in/xiaochangliu/" role="button">LinkedIn</a>
+        <a class="btn btn-secondary" href="https://github.com/lxc1223" role="button">GitHub</a>
+        <a class="btn btn-success" href="./images/wechat qrcode.jpg" role="button">WeChat</a>
+        <a class="btn btn-danger" href="https://www.xiaohongshu.com/user/profile/6143130100000000020188f9" role="button">Xiaohongshu</a>
+        <a class="btn btn-warning" href="https://weibo.com/u/2450196012" role="button">Weibo</a>
+        <a class="btn btn-dark" href="https://www.douyin.com/user/self" role="button">TikTok</a>
+        <a class="btn btn-light" href="" role="button">WeSing</a>
+    </div>
+</div>

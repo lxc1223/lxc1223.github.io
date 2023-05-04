@@ -36,7 +36,7 @@ After graduation, I plan to find a job and work for a year or two and then trave
 {% include figure.html img="https://www.ucsb.edu/sites/default/files/images/pages/VirtualCelebration/stay-connected-campus-aerial.jpg" alt="UCSB" caption="Overlook of UCSB Campus" width="50%" %}
 
 <p class="text-right">
-<a href="https://web.ece.ucsb.edu/spotlights/undergrad/#liu" class="text-decoration-none">[My UCSB Spotlight Link]</a>
+<a href="https://web.ece.ucsb.edu/spotlights/undergrad/#liu" class="text-decoration-none"><b>[My UCSB Spotlight Link]</b></a>
 </p>
 
 <blockquote class="blockquote text-right">
@@ -92,7 +92,7 @@ Post Cornell, my plans are to leverage my education and professional experience 
 {% include figure.html img="https://media4.s-nbcnews.com/j/newscms/2017_38/2161786/170920-cornell-university-campus-1-ew-108p_3a5b26bb6e87ef580d5b037d08c7f518.nbcnews-ux-2880-1000.jpg" alt="Cornell" caption="Overlook of Cornell Campus" width="50%" %}
 
 <p class="text-right">
-<a href="#" class="text-decoration-none">[My Cornell Spotlight Link] <i>T.B.D...</i></a>
+<a href="https://www.systemseng.cornell.edu/spotlights/xiaochang-liu-cornell-systems-pushes-you-higher-level-systematic-thinking" class="text-decoration-none"><b>[My Cornell Spotlight Link]</b></a>
 </p>
 
 <blockquote class="blockquote text-right">
